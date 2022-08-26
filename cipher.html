@@ -16,11 +16,19 @@
     <h3>Reverse String Encryption Decryption Process</h3>
     Enter String: <br><textarea name="stringRev" id="stringRev" cols="30" rows="10"></textarea><br>
     <button onclick="stringRevEncDec()">Encrypt String</button> <button onclick="stringRevEncDec()">Decrypt
-        String</button>
+        String</button> <button onclick="clearRev()">Clear String</button>
     <br>
     Output String:<br>
     <textarea name="outputStr" id="outputStr" cols="30" rows="10" readonly></textarea>
     <hr>
+    <h3>Rail Fence Encryption Decryption Process</h3>
+    Enter String: <br><textarea name="railStr" id="railStr" cols="30" rows="10"></textarea><br>
+    How many rails needed: <input type="number" name="rails" id="key">
+    <button onclick="railEnc()">Encrypt String</button> <button onclick="railDec()">Decrypt
+        String</button> <button onclick="clearRail()">Clear String</button>
+    <br>
+    Output String:<br>
+    <textarea name="outputStrRail" id="outputStrRail" cols="30" rows="10" readonly></textarea>
 </body>
 
 </html>
