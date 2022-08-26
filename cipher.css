@@ -1,4 +1,10 @@
 body{
     margin: 0;
     padding: 0;
+    text-align: center;
+}
+
+textarea{
+    width: 1217px;
+    height: 27px;
 }
